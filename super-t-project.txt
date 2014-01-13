@@ -1,0 +1,34 @@
+Backbone
+	Feature Boilerplates
+		Model Boilerplate
+		Collection Boilerplate
+		View Boilerplate
+		Application Boilerplate
+		Router Boilerplate
+		Template Boilerplates
+			Single Item
+			Item List
+
+Bootstrap
+	Feature Boilerplates
+		modal
+		tool tip
+		popover
+
+EchoNest/Backbone Integration
+	Service Request->Model
+	Service Request->Model->View
+	Service Request->Model->Collection->View
+
+Project Prototypes
+	Home Page
+	Playlist Page
+	Component Templates
+		tooltip
+		iframe
+		popover
+		modal
+		playlist ( collection of populated iframe templates)
+
+
+
