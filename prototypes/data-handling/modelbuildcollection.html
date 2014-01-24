@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Backbone Boilerplate:Collection Fetch</title>
+	</head>
+	<body>
+		<!-- functional library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<!--
+		removes annoying warning on event handling -- http://code.jquery.com/jquery-1.11.0-beta1.js 
+		See: http://stackoverflow.com/questions/20045162/jquery-error-event-returnvalue-is-deprecated-please-use-the-standard-event-pre for details
+		-->
+		<script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+		<script src="http://documentcloud.github.com/backbone/backbone-min.js"></script>
+
+
+		<!-- application code -->
+		<script>
+			var playlistFetchModel,playlist;
+			$(function() {
+ 
+
+				var PlaylistFetchModel = Backbone.Model.extend({url:"http://developer.echonest.com/api/v4/playlist/static?api_key=PZ4LKPTF5EEUFUVKM&format=json&results=20&artist=Big+Bill+Broonzy&bucket=id%3Aspotify-WW&bucket=tracks&limit=true"});
+
+				var Track = Backbone.Model.extend({
+					    defaults: {
+					        uri: 'spotify uri',
+					        title: 'song title',
+					    }
+					});
+
+				playlistFetchModel = new PlaylistFetchModel();
+
+				var Playlist = Backbone.Collection.extend({model:Track})
+				
+				playlist = new Playlist();
+				
+				var PlaylistView = Backbone.View.extend({
+					tagName:'div',
+				    id: 'boilerplateView',
+				    initialize:function(){
+				    	var thisView = this;
+				    	playlist.listenTo(playlistFetchModel,"change", function() {
+                     		var songs = playlistFetchModel.toJSON().response.songs;
+	                     	for (var i = 0; i < songs.length; i++) {
+		                     	var song = songs[i];
+		                     	var uri = song.tracks[0].foreign_id.replace('-WW', '')
+		                     	var title = song.title;
+		                     	var track = new Track({uri:uri,title:title});
+		                     	this.add(track);
+	                     	}
+	                     	thisView.render();
+						});
+
+						playlistFetchModel.fetch();
+
+				    },
+				    render: function( event ){
+				    	var tracks = playlist.toJSON();
+
+				    	for (var i=0; i < tracks.length; i++) {
+				    		this.$el
+				        	.append("<div><a href='" + tracks[i].uri + "'>" + tracks[i].title + "</div>");
+				    	}
+				        
+				        $("body").append(this.$el);
+				        return this; //recommended as this enables calls to be chained.
+				    }
+				    
+				});
+
+				playlistView = new PlaylistView();
+ 				
+			});
+
+		</script>
+	</body>
+</html>
