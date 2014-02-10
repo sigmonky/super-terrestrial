@@ -3,6 +3,8 @@
 	<head>
 	    <meta charset="UTF-8">
 	    <title>Backbone Boilerplate:Collection Fetch</title>
+	    <link href="../../views/dist/css/bootstrap.css" rel="stylesheet">
+	   
 	</head>
 	<body>
 		<!-- functional library -->
@@ -21,7 +23,7 @@
 			$(function() {
  
 
-				var PlaylistFetchModel = Backbone.Model.extend({url:"http://developer.echonest.com/api/v4/playlist/static?api_key=PZ4LKPTF5EEUFUVKM&format=json&results=20&artist=Big+Bill+Broonzy&bucket=id%3Aspotify-WW&bucket=tracks&limit=true"});
+				var PlaylistFetchModel = Backbone.Model.extend({url:"http://developer.echonest.com/api/v4/playlist/static?api_key=PZ4LKPTF5EEUFUVKM&format=json&results=100&artist=Everly+Brothers&bucket=id%3Aspotify-WW&bucket=tracks&limit=true"});
 
 				var Track = Backbone.Model.extend({
 					    defaults: {
@@ -38,7 +40,7 @@
 				
 				var PlaylistView = Backbone.View.extend({
 					tagName:'div',
-				    id: 'boilerplateView',
+				    id: 'boilerplatePlaylistView',
 				    initialize:function(){
 				    	var thisView = this;
 				    	playlist.listenTo(playlistFetchModel,"change", function() {
@@ -59,9 +61,15 @@
 				    render: function( event ){
 				    	var tracks = playlist.toJSON();
 
+				    	tracks.sort(function(a, b){
+					    	if(a.title < b.title) return -1;
+					    	if(a.title > b.title) return 1;
+					    	return 0;
+						});
+
 				    	for (var i=0; i < tracks.length; i++) {
 				    		this.$el
-				        	.append("<div><a href='" + tracks[i].uri + "'>" + tracks[i].title + "</div>");
+				        	.append("<div class='track'><a href='" + tracks[i].uri + "'>" + tracks[i].title + "</div>");
 				    	}
 				        
 				        $("body").append(this.$el);
