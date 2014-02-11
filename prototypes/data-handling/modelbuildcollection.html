@@ -16,6 +16,17 @@
 		<script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
 		<script src="http://documentcloud.github.com/backbone/backbone-min.js"></script>
 
+		<script type="text/template" id="playlistTemplate">
+			
+			<% _.each(items, function(item) { %>
+				<div class='track'>
+					<a href='<%= item.uri %>'><%= item.title %></a>
+				</div>
+			<%});%>
+			
+			
+		</script>
+
 
 		<!-- application code -->
 		<script>
@@ -23,7 +34,7 @@
 			$(function() {
  
 
-				var PlaylistFetchModel = Backbone.Model.extend({url:"http://developer.echonest.com/api/v4/playlist/static?api_key=PZ4LKPTF5EEUFUVKM&format=json&results=100&artist=Everly+Brothers&bucket=id%3Aspotify-WW&bucket=tracks&limit=true"});
+				var PlaylistFetchModel = Backbone.Model.extend({url:"http://developer.echonest.com/api/v4/playlist/static?api_key=PZ4LKPTF5EEUFUVKM&type=artist&format=json&results=100&artist=Jazz+Gillum&bucket=id%3Aspotify-WW&bucket=tracks"});
 
 				var Track = Backbone.Model.extend({
 					    defaults: {
@@ -67,13 +78,17 @@
 					    	return 0;
 						});
 
-				    	for (var i=0; i < tracks.length; i++) {
+				    	/*for (var i=0; i < tracks.length; i++) {
 				    		this.$el
 				        	.append("<div class='track'><a href='" + tracks[i].uri + "'>" + tracks[i].title + "</div>");
-				    	}
-				        
+				    	}*/
+				    	var trackPkg = {items:tracks};
+				    	console.log(trackPkg);
+				    	var playListMarkup = $("#playlistTemplate").html();
+				    	var compiledPlaylistTpl = _.template(playListMarkup, trackPkg);
+				        this.$el.append(compiledPlaylistTpl);
 				        $("body").append(this.$el);
-				        $("body").append('<div><a href="spotify:user:sigmonky:playlist:2aL3coOLe7jMoyGkBl1Aff">playlist</a></div>');
+				        $("body").append('<div><a href="spotify:user:sigmonky:playlist:2aL3coOLe7jMoyGkBl1Aff">spotify playlist</a></div>');
 				        return this; //recommended as this enables calls to be chained.
 				    }
 				    
