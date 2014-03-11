@@ -3,14 +3,12 @@ http://www.academia.edu/1207793/The_Collage_Aesthetic_Non_Linear_Narratives_and_
 
 Curtis Jones
 
-Highway 51 was credited to Curtis Jones on "Bob Dylan". What's curious about this is that Dylan's version bears no significant resemblance to Jones' '38 contribution recorded for Vocalion:both lyrics and musical arrangment are vastly different. I haven't found any convincing explanation for this attribution. Maybe Dylan misinformed Columbia? Maybe Columbia had an interest in the publishing company? Who knows? 
+Highway 51 was credited to Curtis Jones on "Bob Dylan". What's curious about this is that Dylan's version bears no significant resemblance to Jones' '38 contribution recorded for Vocalion:both lyrics and musical arrangment are vastly different. I haven't found any convincing explanation for this attribution. Maybe Dylan misinformed Columbia. Maybe Columbia had an interest in the publishing company. Honest mistake?
 
 
 Lyrics
 
-Though attribution was misplaced, the overall shape of the lyrics could well serve as a prototoype for much of Dylan's future output. Jones fashions a narrative collage with a rich network of internal resonances that provide a fugitive harmonization .
-
-While Dylan and McClennan start off in hot pursuit of a love interest, Jones opens with a plea to an estranged lover for forgiveness -- perhaps only to avoid having to escape retribution for his wrongdoing:
+These lyrics have several features characteristic of Dylan's work:rhythmically complex phrasing, a collage narrative that tells a story without reliance on narration sequence,and deft usage of consonance,assonance, and alliteration. While Dylan and McClennan start off in hot pursuit of a love interest, Jones opens with a plea to an estranged lover for forgiveness -- perhaps only to avoid retribution:
 
 A1:Forgive me /honey for all the wrong I've done
 A2:Please forgive me/honey for all the wrong I've done
@@ -23,15 +21,15 @@ A1:If I should die/Baby, before my time ( playing with the sequence be-be -- pla
 A2:If I should die/baby before my time
 B:bury my body on 51 highway/just down below the frisco line
 
-The "frisco line" refers to a train track. That's a pretty vague landmark but perhaps that's not the point. By mentioning train tracks, Jones summons associations with another prevalent form of travel in blues lyric stock.
+The "frisco line" refers to a train track and creates associations with another prevalent form of travel in blue songs.
 
-In verse 3, Jones is trying to freeload a bus ride and transposes a scenario for train travel frequently narrated by blues singers:
+In verse 3, Jones is trying to freeload a bus ride, modifying a train travel scenario frequently narrated by blues singers:
 
 A1:Now, Mister Bus Driver/let me ride down in your blinds
 A2:Mister Bus Driver/let me ride down in your blinds
 B:And if you don't let me ride, man/I'm gonna swing right on behind
 
-His reference to "your blinds" borrows a term typically used in relation to hobo train travel to petition the bus driver to waive the bus fare and allow a penniless itinerant a covert,sketchy seating option. The hyperbolic B phrase -- though weirdly comic -- conveys the singer's desperation and the extreme risks he is willing to take to bum a ride. (This is decades before skate boards or rollerblades mind you).
+His reference to "your blinds" borrows a term typically used in relation to hobo train travel to petition the bus driver to waive the bus fare and allow a penniless itinerant a covert,sketchy seating option. Such dialogs typically end with the driver telling the freeloader he can't do it. Here, the B phrase gives the narrator the last word, both resolute and desparate. 
 
 Abruptly moving from desperation to largesse, Jones in verse 4 offers opulent assylum to a woman fleeing her unhinged boyfriend:
 
@@ -46,6 +44,10 @@ B:Come and follow me to my mansion/that's down on highway 51
  ... and the "B" words provide an internal rhyme with their assonant "eeee" endings, wrapping the whole sub-phrase in an internal rhyme.
 
  Jones uses collage rather than linear logic to sequence the lyrics but the overall flow feels more deliberate than spontaneous. As with McClennan, Highway 51 is simultaneously a road (and specifically a means of escape), a home (in this case a mansion), and a grave. 
+
+ Me and My Baby/We walked 51 Highway  side by side
+ Me and My little baby/ walked the highway side by side
+ If we should have a bad accident, won't nobody know the death we died
 
 
 
