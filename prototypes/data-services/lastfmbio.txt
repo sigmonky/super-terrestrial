@@ -1,3 +1,5 @@
 
+32b887e96f5b285e7cfec7d2c873c79 ( api key)
+
 last fm get bio:
 http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Jazz%20Gillum&api_key=32b887e96f5b285e7cfec7d2c873c79a&format=json
