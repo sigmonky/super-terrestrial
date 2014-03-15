@@ -277,66 +277,70 @@
           });
         
         
-        PlaylistView = Backbone.View.extend({
+        PlaylistView = Backbone.View.extend(
+        {
           tagName:'div',
-            id: 'playlistContainer',
-            initialize:function(){
+          id: 'playlistContainer',
+          initialize:function(){
 
-              var playlistURL;
+            var playlistURL;
 
-              switch (this.options.type) {
-                case "artist-radio":
-                  playlistURL = "http://developer.echonest.com/api/v4/playlist/basic?api_key=PZ4LKPTF5EEUFUVKM&artist=" + this.options.artist +"&format=json&results=100&type=" + this.options.type + "&bucket=id%3Aspotify-WW&bucket=tracks";
-                  break;
+            switch (this.options.type) {
+              case "artist-radio":
+                playlistURL = "http://developer.echonest.com/api/v4/playlist/basic?api_key=PZ4LKPTF5EEUFUVKM&artist=" + this.options.artist +"&format=json&results=100&type=" + this.options.type + "&bucket=id%3Aspotify-WW&bucket=tracks";
+                break;
 
 
-              }
-              //var playlistURL = "http://developer.echonest.com/api/v4/playlist/static?api_key=PZ4LKPTF5EEUFUVKM&format=json&results=100&artist=Tommy+McClennan&bucket=id%3Aspotify-WW&bucket=tracks&limit=true";
+            }
+            //var playlistURL = "http://developer.echonest.com/api/v4/playlist/static?api_key=PZ4LKPTF5EEUFUVKM&format=json&results=100&artist=Tommy+McClennan&bucket=id%3Aspotify-WW&bucket=tracks&limit=true";
 
-              PlaylistFetchModel = Backbone.Model.extend({url:playlistURL});
+            PlaylistFetchModel = Backbone.Model.extend({url:playlistURL});
 
-        Track = Backbone.Model.extend({
-              defaults: {
-                  uri: 'spotify uri',
-                  title: 'song title',
-              }
-          });
+            Track = Backbone.Model.extend({
+                  defaults: {
+                      uri: 'spotify uri',
+                      title: 'song title',
+                  }
+              });
 
-        playlistFetchModel = new PlaylistFetchModel();
+            playlistFetchModel = new PlaylistFetchModel();
 
-        Playlist = Backbone.Collection.extend({model:Track})
+            Playlist = Backbone.Collection.extend({model:Track})
         
-        playlist = new Playlist();
-              var thisView = this;
-              playlist.listenTo(playlistFetchModel,"change", function() {
-                        var songs = playlistFetchModel.toJSON().response.songs;
+            playlist = new Playlist();
+            var thisView = this;
+            playlist.listenTo(playlistFetchModel,"change", 
+              function() {
+                  var songs = playlistFetchModel.toJSON().response.songs;
 
-                        for (var i = 0; i < songs.length; i++) {
-                          var song = songs[i];
-                          console.log(song);
-                          if (song.tracks.length > 0) {
-                            var uri = song.tracks[0].foreign_id.replace('-WW', '');
-                            var title = song.title;
-                            var artistName = song.artist_name;
-                            var track = new Track({uri:uri,title:title,artist_name:artistName});
-                            this.add(track);
-                          }
-                          
-                        }
-                        thisView.render();
-            });
+                  for (var i = 0; i < songs.length; i++) {
+                    var song = songs[i];
+                    console.log(song);
+                    if (song.tracks.length > 0) {
+                      var uri = song.tracks[0].foreign_id.replace('-WW', '');
+                      var title = song.title;
+                      var artistName = song.artist_name;
+                      var track = new Track({uri:uri,title:title,artist_name:artistName});
+                      this.add(track);
+                    }
+                    
+                  }
+                  thisView.render();
+              } // end playlistFechModel "change" event handler
+            ); // end playlist.listenTo
 
             playlistFetchModel.fetch();
 
-            },
-            render: function( event ){
+          }, // end PlaylistView initialize function
+          render: 
+            function( event ){
               var tracks = playlist.toJSON();
 
               tracks.sort(function(a, b){
                 if(a.title < b.title) return -1;
                 if(a.title > b.title) return 1;
                 return 0;
-            });
+              }); // end tracks.sort
 
               for (var i=0; i < tracks.length; i++) {
                 this.$el
@@ -348,15 +352,11 @@
                     + "</div>");
               }
                 
-                $(this.options.container).append(this.$el);
-                return this; //recommended as this enables calls to be chained.
-            }
-            
-        });
-
-        
-        
-      });
+              $(this.options.container).append(this.$el);
+              return this; //recommended as this enables calls to be chained.
+            } // end PlaylistView.render 
+        }); //end PlaylistView
+      }); // end jquery.ready
 
 
         /*$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
@@ -366,10 +366,10 @@
            }
            
         });*/
-        $(".playListRadio").on("click",function(e){
-          var artist = $(e.target).attr('data-artist');
-          playlistView = new PlaylistView({container:"#playlist2",artist:artist,type:"artist-radio"});
-        });
+      $(".playListRadio").on("click",function(e){
+        var artist = $(e.target).attr('data-artist');
+        playlistView = new PlaylistView({container:"#playlist2",artist:artist,type:"artist-radio"});
+      });
     </script>
   </body>
 </html>

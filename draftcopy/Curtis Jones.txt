@@ -9,27 +9,32 @@ Lyrics
 
 
 
-These lyrics have several features characteristic of Dylan's work:rhythmically complex phrasing, a disorienting word collage that tells a story without reliance on narration sequence,and deft usage of consonance,assonance, and alliteration. They are spooky, allusive, and inflected with sly humor throughout. Whether composed or improvised, they demonstrate sophisticated and subtle craft.
+These lyrics have several features characteristic of Dylan's work:rhythmically complex phrasing, a disorienting collage narrative that tells a story without reliance on sequence,and deft usage of consonance,assonance, and alliteration. They are spooky, allusive, and inflected with sly humor throughout. 
 
-While Dylan and McClennan open with hot pursuit of a love interest, Jones first pleas to an estranged lover for forgiveness -- perhaps only to avoid retribution. Verse 2 deals with the premature death/burial site motif and refers to train tracks -- "the Frisco line" -- as a gravesite landmark, conjoining ultimate stasis with an elevated form of travel, ever-so-lightly alluding to the heavenly train of the saved so prevalent in gospel music of the period. In verse 3, Jones tries to freeload a bus ride. His request of the driver to ride "the blinds" refashions a stock blues lyric convention where the impvoverished would-be passenger petitions a train engineer or conductor to ride gratis in a covert, dangerous section of the train and is denied. Here Jones pre-empts the bus driver's anticipated response with the resolution to "swing right on behind" if denied passage. This is decades before skate boards or roller blades so it's hard to interperet precisely what he means but the phrase does successfully convey his determination to ride the bus by whatever means neccessary, however dangerous. Abruptly moving from desperation to largesse, verse 4 finds Jones offering opulent assylum to a woman fleeing her unhinged boyfriend in the singer's mansion on the highway. Jones seques from confidence to despair in verse 5, the final and eeriest of all. We now have recollection of he and his woman walking together down Highway 51 in the A lines but this is answered in the B line with future-tense speculation of their unreported death in a bad accident. 
 
-As with McClennan's "New Highway 51", the subject is simultaneously a road (and specifically a means of escape), a home (in this case a mansion), and a grave. The rich story content is fashioned with skillful use of consonance, assonance, illiteration, internal rhyme, and judicious placement of some phrasing pyrotechnics. For example, in the verse 1 B line we have:
-===================================
+While Dylan and McClennan open with hot pursuit of a love interest, Jones first pleas to an estranged lover for forgiveness -- perhaps only to avoid retribution. Verse 2 deals with the premature death/burial site motif and refers to train tracks -- "the Frisco line" -- as a gravesite landmark, conjoining morbid stasis with an elevated form of travel, ever-so-lightly alluding to the heaven-bound train of the saved so prevalent in gospel music of the period. In verse 3, Jones tries to freeload a bus ride. His request of the driver to ride "the blinds" refashions a stock blues lyric convention where the impvoverished would-be passenger petitions a train engineer or conductor to ride gratis in a covert, dangerous section of the train and is denied. Here Jones pre-empts the bus driver's anticipated response with the resolution to "swing right on behind" if denied passage. This is decades before skate boards or roller blades so it's hard to guess what transportation method he refers to, but the phrase does successfully conveys his determination to ride the bus by whatever means neccessary, however dangerous. Abruptly moving from desperation to largesse, verse 4 finds Jones offering opulent assylum to a woman fleeing her unhinged boyfriend in the singer's mansion on the highway. Jones seques from confidence to despair in verse 5, the most diorienting and tragic of all. It recalls he and his woman walking together down Highway 51 in the A lines but this is answered in the B line with future-tense speculation of their unreported death in a bad accident. 
+
+As with McClennan's "New Highway 51", the subject is simultaneously a road (and specifically a means of escape), a home (in this case a mansion), and a grave. The rich narrative collage is fashioned with skillful use of consonance, assonance, illiteration, internal rhyme, and judicious placement of some phrasing pyrotechnics. As an example of the latter, in the verse 1 B phrase we have:
 
 "I don't want nobody have to come a-here for me"
 
-...that's thirteen syllables evenly spaced and packed into two and a half quarter-note beats -- a tricky 13:10 polyrhythm. This is a challenge to sing and hard to either improvise or compose. And he's accompanying himself with an independent ryhthm in his right hand and holding down the bass line in his left on the piano.
+...that's thirteen syllables evenly spaced and packed into two and a half quarter-note notes or 10 sixteenth notes-- a tricky 13:10 polyrhythm. This is a challenge to sing and hard to either improvise or compose. And he's accompanying himself with an independent ryhthm in his right hand and holding down the bass line in his left on the piano.
 
 
-Baby if your Good man Get Buggy
+The verse 4 A1 phrase has this clever Chinese box full of phonics:
 
-is perhpas a pun on yet another mode of transportation. Another remarkable feature of this verse is its ingenious use of compound, enveloped, alliteration with a pair of B's wrapping a pair of G's:
+
+BabY if your Good man Get BuggY
+
+
+Starting from the endpoints, there is an internal rhyme between "Baby" and "Buggy" as well as consonance. The endpoints wrap another consonance between "Good" and "Get", which is also echoed in the end-word "buggy". In addition to intricate sound design, "buggy" puns on yet another means of travel.
  
  
 
- ... and the "B" words provide an internal rhyme with their assonant "eeee" endings, wrapping the whole sub-phrase in an internal rhyme.
- ====================================
+Performance
 
+Jones performance is characteristic of urban blues with its disicplined adherence to the 4/4 12-bar blues form througout. But he brilliantly plays against this predictable regularity with wild polyrhythmic excursions in both piano and vocal phrasing. 
+Suffice to say, Jones was a superb blues piano player and a master of rhythtmic independence. His high,spectral tenor voice and somewhat unusual choice of minor key  add immensely to the tune's sustained spooky mood. This is a multi-valent travel song, and - despite all the terrestrial vehicles references - is a convincing  incantation of an out of body experience.
 
 
 
@@ -38,38 +43,22 @@ A2:Please forgive me/honey for all the wrong I've done
 B:I don't want nobody have to (be) comin' for me/ whilst(?) out on highway 51
 
 
-
-
 A1:If I should die/Baby, before my time ( playing with the sequence be-be -- playful in a way Dylan would pick up on)
 A2:If I should die/baby before my time
 B:bury my body on 51 highway/just down below the frisco line
 
 
-
-
-
-
+A1:Now, Mister Bus Driver/let me ride down in your blinds
+A2:Mister Bus Driver/let me ride down in your blinds
+B:And if you don't let me ride, man/I'm gonna swing right on behind
 
 A1:Baby if your good man get buggy/ Don't want you to have no fun
 A2:If your man get buggy, Baby/Don't want you to have no fun
 B:Come and follow me to my mansion/that's down on highway 51
 
- McClennan also has a similar verse in his "New Highway 51". "Buggy" -- a synonym for crazy -- 
 
- Jones uses collage rather than linear logic to sequence the lyrics but the overall flow feels more deliberate than spontaneous. As with McClennan, Highway 51 is simultaneously a road (and specifically a means of escape), a home (in this case a mansion), and a grave. 
-
- Me and My Baby/We walked 51 Highway  side by side
- Me and My little baby/ walked the highway side by side
- If we should have a bad accident, won't nobody know the death we died
-
-
-
-
-
-
-Performance
-
-Jones performance is characteristic of urban blues with its strict adherence to the 4/4 12-bar blues form througout. But he brilliantly plays against this predictable regularity with wild polyrhythmic excursions in both piano and vocal phrasing. 
-Suffice to say, Jones was a superb blues piano player. His high,spectral tenor voice and somewhat unusual choice of minor key  add immensely to the tune's sustained spooky mood. This is certainly a multi-valent travel song, and - despite all the terrestrial vehicles references - it plays like an incantation of an out of body experience.
+ A1:Me and My Baby/We walked 51 Highway  side by side
+ A1:Me and My little baby/ walked the highway side by side
+ B:If we should have a bad accident, won't nobody know the death we died
 
 

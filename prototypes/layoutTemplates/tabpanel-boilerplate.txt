@@ -1,0 +1,37 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#{collapse id}">
+        {song title}
+      </a>
+    </h4>
+  </div>
+  <div id="" class="panel-collapse collapse">
+    <div class="panel-body">
+        <div>
+          <span class="glyphicon glyphicon-music"></span>                  
+          <a href="">Play {track name }on Spotify</a>
+        </div>
+        <div>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#{info id}" data-toggle="tab">Info</a></li>
+            <li><a href="#{lyrics id}"data-toggle="tab">Lyrics</a></li>
+            <li><a href="#{bio id}"data-toggle="tab">Bio</a></li>
+            <li><a href="#{playlist id}"data-toggle="tab">Playlists</a></li>
+            <li><a href="#{videos id}"data-toggle="tab">Videos</a></li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="info"> 
+              {info}
+            </div>
+            <div class="tab-pane" id="lyrics">
+             {Lyrics}
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
