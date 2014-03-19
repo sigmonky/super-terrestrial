@@ -1,0 +1,46 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Curtis Jones -- Highway 51 Blues
+      </a>
+    </h4>
+  </div>
+  <div id="collapse3" class="panel-collapse collapse">
+    <div class="panel-body">
+        <div>
+          <span class="glyphicon glyphicon-music"></span>                  
+          <a href="spotify:track:02qRKRi0BEY1sc7uk26NJj">Play  Highway 51 on Spotify</a>
+        </div>
+        <div>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#info3" data-toggle="tab">Info</a></li>
+            <li><a href="#lyrics3"data-toggle="tab">Lyrics</a></li>
+            <li><a href="#bio3"data-toggle="tab">Bio</a></li>
+            <li><a href="#playlists3"data-toggle="tab">Playlists</a></li>
+            <li><a href="#videos3"data-toggle="tab">Videos</a></li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="info3"> 
+              {info}
+            </div>
+            <div class="tab-pane" id="lyrics3">
+             {Lyrics}
+            </div>
+            <div class="tab-pane" id="bio3">
+             {bio}
+            </div>
+            <div class="tab-pane" id="playlists3">
+             {videos}
+            </div>
+            <div class="tab-pane" id="videos3">
+             {Lyrics}
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
