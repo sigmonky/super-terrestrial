@@ -1,0 +1,59 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Jazz Gillum -- Good Old Highway 51
+      </a>
+    </h4>
+  </div>
+  <div id="" class="panel-collapse collapse">
+    <div class="panel-body">
+      <div>
+        <span class="glyphicon glyphicon-music"></span>                  
+        <a href="spotify:track:6j8TK25cPsF8UhyhZjMSx4">Play Good Old Highway 51 on Spotify</a>
+      </div>
+      <div>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#info4" data-toggle="tab">Info</a></li>
+          <li><a href="#lyrics4"data-toggle="tab">Lyrics</a></li>
+          <li><a href="#bio4"data-toggle="tab">Bio</a></li>
+          <li><a href="#playlists4"data-toggle="tab">Playlists</a></li>
+          <li><a href="#videos4"data-toggle="tab">Videos</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="info4"> 
+            <div class="txtFormat">
+              <p>
+                Jazz Gillum's "Good Old 51 Highway" is a fine example of the 30's Chicago blues style known as "the Bluebird Beat". Named after Victor's susbidiary blues label,it combined elements of vaudeville-based "classic" and Mississippi Delta country blues. The style is conventionally understood as reflecting aspirations to urbanity inflected with sentimental nostalgia for rural origins by recent African-American transplants to Chicago from the Missisippi Delta -- a kind of sepia tin pan alley. This seems sociologically naive and the assumed dichotomy between the urbane and the rustic is unconvincing. The stylistic fusion is certainly there but is better understood as a dialog between two nuanced, developed musical genres and cultural milieus. The eduring appeal of artists like Gillum, Sonny Boy Williamson I, Washboard Sam, and  Big Maceo among several others was their ability to take advantage of musical urbanisms such as regular musical structures, and clever poular songwriting craft without diluting the expressive power,folkloric reservoir, or subtle rhythmic craft characteristic of their "downhome" delta sources.
+              </p>
+
+
+              <p>
+                Gillum's understated vocal delivery exhibits not urban coolness but smoldering,understated feelings of heartbreak,humilation and raw anger. His falsetto,wistful harmonica lines poise contemporary jazz trumpet and clarinet influences on a firm foundation of southern rural blues and string band harmonica conventions. More than any other lyrics in this playlist, Gillum's display careful linear development while covering the common themes of estranged love, means of travel, destitution, and death in readily coherent and artfully innovative ways.
+              </p>
+
+              <p>
+                This story is the only one in the playlist to begin with the estranged lover talking. Bending convention, it is not Gillum that "woke up this morning" in verse 1, but his "baby". Another original twist is that she announces to him that she's the one hitting the road. Without identifying what caused the estrangement, verse 2 compounds the qualified suggestion of Gillum's bewilderment in verse 1 with the sting of public humiliation: she refuses to talk to him and asks her friends for directions to the highway. The means of travel introduced in Verse 3 is an unenthusiastic fantasy about hitch-hiking, telegraphing that the singer is broke and going nowhere fast. Verse 4 expands on this feeling of frustrated indolence and charts its progression to violent yet impotent rage.:the "machine" he doesn't have suggests a few things at once: a gun ( a machine gun perhaps), an automobile (perhaps a steamroller), and a properly functioning penis. 
+              </p>
+            </div>
+          </div>
+          <div class="tab-pane" id="lyrics4">
+           {Lyrics}
+          </div>
+           <div class="tab-pane" id="bio3">
+           {bio}
+          </div>
+          <div class="tab-pane" id="playlists3">
+           {videos}
+          </div>
+          <div class="tab-pane" id="videos3">
+           {Lyrics}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
