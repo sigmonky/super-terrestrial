@@ -7,3 +7,8 @@ body {
 .txtFormat {
 	padding:.5em;
 }
+
+.lyricSection {
+	padding-right:.5em;
+	font-weight: bold;
+}
