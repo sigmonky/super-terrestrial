@@ -1,0 +1,46 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+       John Lee Hooker -- Oy Yoy Yoy
+      </a>
+    </h4>
+  </div>
+  <div id="collapseSix" class="panel-collapse collapse">
+    <div class="panel-body">
+        <div>
+          <span class="glyphicon glyphicon-music"></span>                  
+          <a href="">Play {track name }on Spotify</a>
+        </div>
+        <div>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#{info id}" data-toggle="tab">Info</a></li>
+            <li><a href="#lyrics6"data-toggle="tab">Lyrics</a></li>
+            <li><a href="#bio6"data-toggle="tab">Bio</a></li>
+            <li><a href="#playlist6"data-toggle="tab">Playlists</a></li>
+            <li><a href="#videos6"data-toggle="tab">Videos</a></li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="info6"> 
+              {info}
+            </div>
+            <div class="tab-pane" id="lyrics6">
+              {Lyrics}
+            </div>
+            <div class="tab-pane" id="bio6">
+              {bio}
+            </div>
+            <div class="tab-pane" id="playlists6">
+              {playlists}
+            </div>
+            <div class="tab-pane" id="videos6">
+              {videos}
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
